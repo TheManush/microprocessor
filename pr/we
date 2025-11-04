@@ -1,1 +1,1 @@
-
+nasm -f elf64 code.asm -o code.o && gcc -no-pie -o code code.o && ./code
